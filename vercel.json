@@ -1,0 +1,3 @@
+{
+  "redirects": [{ "source": "/app/:path*", "destination": "/", "permanent": false }]
+}
