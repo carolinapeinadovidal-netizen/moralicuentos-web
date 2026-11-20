@@ -107,6 +107,10 @@ nav ul a:hover{color:var(--calabaza-osc)}
 .season{background:var(--blanco);border-radius:var(--radio);overflow:hidden;box-shadow:var(--sombra)}
 .season img{width:100%;aspect-ratio:4/3;object-fit:cover}
 .season figcaption{padding:16px 20px 20px}
+/* «Leer el cuento» a la misma altura en las cuatro tarjetas */
+.season-cuento{display:flex;flex-direction:column}
+.season-cuento figcaption{flex:1;display:flex;flex-direction:column;align-items:flex-start}
+.season-cuento .leer-cuento{margin-top:auto;padding-top:10px}
 .season h3{font-size:1.2rem;margin-bottom:2px}
 .season p{font-size:.95rem}
 
